@@ -1,0 +1,14 @@
+Recently we've had some copyrighted images slip through onto the gallery.
+This could turn into a big issue for us so we are putting a new process in place that all new images must go through our legal council for approval.
+Any new images you would like to add to the gallery should be provided to legal with all relevant copyright information.
+I've assigned Greg to setup a process for legal to transfer approved images directly to the server to avoid any confusion or mishaps.
+This will be the only way to add images to our gallery going forward.
+
+
+Hey team, I've deployed the v2 API to production and have started using it in the admin section.
+Let me know if you spot any bugs.
+This will be a major security upgrade for our users, passwords no longer need to be transmitted to the server in clear text!
+By hashing the password client side there is no risk to our users as BCrypt is basically uncrackable.
+This should take care of the concerns raised by our users regarding our lack of HTTPS connection.
+
+The v2 API also comes with some neat features we are testing that could allow users to apply cool effects to the images. I've included some examples on the image editing page, but feel free to browse all of the available effects for the module and suggest some: "https://www.php.net/manual/en/class.imagick.php"

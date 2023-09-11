@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Tue Sep  5 16:27:00 2023 as: nmap -sC -sV -p22,80 -oA nmap/jupiter 10.10.11.216
+Host: 10.10.11.216 ()	Status: Up
+Host: 10.10.11.216 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/
+# Nmap done at Tue Sep  5 16:27:09 2023 -- 1 IP address (1 host up) scanned in 8.93 seconds

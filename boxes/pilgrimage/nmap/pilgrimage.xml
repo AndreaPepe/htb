@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Wed Aug 16 21:40:00 2023 as: nmap -sC -sV -p22,80 -oA nmap/pilgrimage 10.10.11.219 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p22,80 -oA nmap/pilgrimage 10.10.11.219" start="1692214800" startstr="Wed Aug 16 21:40:00 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.11.219" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1692214800" endtime="1692214808"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.11.219" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.4p1 Debian 5+deb11u1" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.4p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 20:be:60:d2:95:f6:28:c1:b7:e9:e8:17:06:f1:68:f3 (RSA)&#xa;  256 0e:b6:a6:a8:c9:9b:41:73:74:6e:70:18:0d:5f:e0:af (ECDSA)&#xa;  256 d1:4e:29:3c:70:86:69:b4:d7:2c:c8:0b:48:6e:98:04 (ED25519)"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDnPDlM1cNfnBOJE71gEOCGeNORg5gzOK/TpVSXgMLa6Ub/7KPb1hVggIf4My+cbJVk74fKabFVscFgDHtwPkohPaDU8XHdoO03vU8H04T7eqUGj/I2iqyIHXQoSC4o8Jf5ljiQi7CxWWG2t0n09CPMkwdqfEJma7BGmDtCQcmbm36QKmUv6Kho7/LgsPJGBP1kAOgUHFfYN1TEAV6TJ09OaCanDlV/fYiG+JT1BJwX5kqpnEAK012876UFfvkJeqPYXvM0+M9mB7XGzspcXX0HMbvHKXz2HXdCdGSH59Uzvjl0dM+itIDReptkGUn43QTCpf2xJlL4EeZKZCcs/gu8jkuxXpo9lFVkqgswF/zAcxfksjytMiJcILg4Ca1VVMBs66ZHi5KOz8QedYM2lcLXJGKi+7zl3i8+adGTUzYYEvMQVwjXG0mPkHHSldstWMGwjXqQsPoQTclEI7XpdlRdjS6S/WXHixTmvXGTBhNXtrETn/fBw4uhJx4dLxNSJeM=</elem>
+<elem key="fingerprint">20be60d295f628c1b7e9e81706f168f3</elem>
+<elem key="bits">3072</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOaVAN4bg6zLU3rUMXOwsuYZ8yxLlkVTviJbdFijyp9fSTE6Dwm4e9pNI8MAWfPq0T0Za0pK0vX02ZjRcTgv3yg=</elem>
+<elem key="fingerprint">0eb6a6a8c99b4173746e70180d5fe0af</elem>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAILGkCiJaVyn29/d2LSyMWelMlcrxKVZsCCgzm6JjcH1W</elem>
+<elem key="fingerprint">d14e293c708669b4d72cc80b486e9804</elem>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="nginx" version="1.18.0" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.18.0</cpe></service><script id="http-server-header" output="nginx/1.18.0"><elem>nginx/1.18.0</elem>
+</script><script id="http-title" output="Did not follow redirect to http://pilgrimage.htb/"><elem key="redirect_url">http://pilgrimage.htb/</elem>
+</script></port>
+</ports>
+<times srtt="42644" rttvar="25293" to="143816"/>
+</host>
+<runstats><finished time="1692214808" timestr="Wed Aug 16 21:40:08 2023" summary="Nmap done at Wed Aug 16 21:40:08 2023; 1 IP address (1 host up) scanned in 8.56 seconds" elapsed="8.56" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

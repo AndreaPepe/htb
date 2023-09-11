@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Mon Sep  4 15:49:52 2023 as: nmap -sC -sV -p22,80 -oA nmap/cozyhosting 10.129.119.166 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p22,80 -oA nmap/cozyhosting 10.129.119.166" start="1693835392" startstr="Mon Sep  4 15:49:52 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.119.166" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1693835393" endtime="1693835401"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.119.166" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.9p1 Ubuntu 3ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 43:56:bc:a7:f2:ec:46:dd:c1:0f:83:30:4c:2c:aa:a8 (ECDSA)&#xa;  256 6f:7a:6c:3f:a6:8d:e2:75:95:d4:7b:71:ac:4f:7e:42 (ED25519)"><table>
+<elem key="fingerprint">4356bca7f2ec46ddc10f83304c2caaa8</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEpNwlByWMKMm7ZgDWRW+WZ9uHc/0Ehct692T5VBBGaWhA71L+yFgM/SqhtUoy0bO8otHbpy3bPBFtmjqQPsbC8=</elem>
+</table>
+<table>
+<elem key="fingerprint">6f7a6c3fa68de27595d47b71ac4f7e42</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIHVzF8iMVIHgp9xMX9qxvbaoXVg1xkGLo61jXuUAYq5q</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="nginx" version="1.18.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.18.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-title" output="Did not follow redirect to http://cozyhosting.htb"><elem key="redirect_url">http://cozyhosting.htb</elem>
+</script><script id="http-server-header" output="nginx/1.18.0 (Ubuntu)"><elem>nginx/1.18.0 (Ubuntu)</elem>
+</script></port>
+</ports>
+<times srtt="49105" rttvar="28278" to="162217"/>
+</host>
+<runstats><finished time="1693835401" timestr="Mon Sep  4 15:50:01 2023" summary="Nmap done at Mon Sep  4 15:50:01 2023; 1 IP address (1 host up) scanned in 8.85 seconds" elapsed="8.85" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Fri Sep  8 09:12:29 2023 as: nmap -sC -sV -p22,53,80 -oA nmap/snoopy 10.10.11.212
+Host: 10.10.11.212 ()	Status: Up
+Host: 10.10.11.212 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 53/open/tcp//domain//ISC BIND 9.18.12-0ubuntu0.22.04.1 (Ubuntu Linux)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/
+# Nmap done at Fri Sep  8 09:12:45 2023 -- 1 IP address (1 host up) scanned in 15.57 seconds

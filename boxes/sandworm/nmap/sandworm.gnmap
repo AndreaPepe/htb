@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Wed Sep  6 09:20:25 2023 as: nmap -sC -sV -p22,80,443 -oA nmap/sandworm 10.10.11.218
+Host: 10.10.11.218 ()	Status: Up
+Host: 10.10.11.218 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/, 443/open/tcp//ssl|http//nginx 1.18.0 (Ubuntu)/
+# Nmap done at Wed Sep  6 09:20:43 2023 -- 1 IP address (1 host up) scanned in 18.45 seconds

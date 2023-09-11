@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Tue Sep  5 08:18:04 2023 as: nmap -sC -sV -p22,80,3000 -oA nmap/format 10.10.11.213
+Host: 10.10.11.213 ()	Status: Up
+Host: 10.10.11.213 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0/, 3000/open/tcp//http//nginx 1.18.0/
+# Nmap done at Tue Sep  5 08:18:18 2023 -- 1 IP address (1 host up) scanned in 14.66 seconds

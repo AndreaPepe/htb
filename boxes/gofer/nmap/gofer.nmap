@@ -1,0 +1,30 @@
+# Nmap 7.94 scan initiated Wed Sep  6 13:56:40 2023 as: nmap -sC -sV -p22,80,25,139,445 -oA nmap/gofer 10.10.11.225
+Nmap scan report for 10.10.11.225
+Host is up (0.048s latency).
+
+PORT    STATE    SERVICE     VERSION
+22/tcp  open     ssh         OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 aa:25:82:6e:b8:04:b6:a9:a9:5e:1a:91:f0:94:51:dd (RSA)
+|   256 18:21:ba:a7:dc:e4:4f:60:d7:81:03:9a:5d:c2:e5:96 (ECDSA)
+|_  256 a4:2d:0d:45:13:2a:9e:7f:86:7a:f6:f7:78:bc:42:d9 (ED25519)
+25/tcp  filtered smtp
+80/tcp  open     http        Apache httpd 2.4.56
+|_http-title: Did not follow redirect to http://gofer.htb/
+|_http-server-header: Apache/2.4.56 (Debian)
+139/tcp open     netbios-ssn Samba smbd 4.6.2
+445/tcp open     netbios-ssn Samba smbd 4.6.2
+Service Info: Host: gofer.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: 18h39m08s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-09-07T06:36:03
+|_  start_date: N/A
+|_nbstat: NetBIOS name: GOFER, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep  6 13:56:59 2023 -- 1 IP address (1 host up) scanned in 19.22 seconds

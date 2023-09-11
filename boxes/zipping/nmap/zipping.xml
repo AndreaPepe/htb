@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Thu Aug 24 16:07:47 2023 as: nmap -sC -sV -p22,80 -oA nmap/zipping 10.129.50.84 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p22,80 -oA nmap/zipping 10.129.50.84" start="1692886067" startstr="Thu Aug 24 16:07:47 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.50.84" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1692886067" endtime="1692886079"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.50.84" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="9.0p1 Ubuntu 1ubuntu7.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:9.0p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 9d:6e:ec:02:2d:0f:6a:38:60:c6:aa:ac:1e:e0:c2:84 (ECDSA)&#xa;  256 eb:95:11:c7:a6:fa:ad:74:ab:a2:c5:f6:a4:02:18:41 (ED25519)"><table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBP6mSkoF2+wARZhzEmi4RDFkpQx3gdzfggbgeI5qtcIseo7h1mcxH8UCPmw8Gx9+JsOjcNPBpHtp2deNZBzgKcA=</elem>
+<elem key="fingerprint">9d6eec022d0f6a3860c6aaac1ee0c284</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIOXXd7dM7wgVC+lrF0+ZIxKZlKdFhG2Caa9Uft/kLXDa</elem>
+<elem key="fingerprint">eb9511c7a6faad74aba2c5f6a4021841</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.54" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.54</cpe></service><script id="http-title" output="Zipping | Watch store"><elem key="title">Zipping | Watch store</elem>
+</script><script id="http-server-header" output="Apache/2.4.54 (Ubuntu)"><elem>Apache/2.4.54 (Ubuntu)</elem>
+</script></port>
+</ports>
+<times srtt="44677" rttvar="25349" to="146073"/>
+</host>
+<runstats><finished time="1692886079" timestr="Thu Aug 24 16:07:59 2023" summary="Nmap done at Thu Aug 24 16:07:59 2023; 1 IP address (1 host up) scanned in 11.88 seconds" elapsed="11.88" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

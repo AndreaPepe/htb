@@ -1,0 +1,703 @@
+Operating system: Windows NT
+                  10.0.19041
+CPU: amd64
+     family 23 model 1 stepping 1
+     2 CPUs
+
+No crash
+Process uptime: 75 seconds
+
+Thread 0 
+ 0  win32u.dll + 0x11c4
+     rax = 0x000000000000100c    rdx = 0x00007fffdb0c7a39
+     rcx = 0x0000000000000000    rbx = 0x0000000002bde7f8
+     rsi = 0x0000000000f1ae80    rdi = 0x0000000000000000
+     rbp = 0x0000000000cfeb00    rsp = 0x0000000000cfea58
+      r8 = 0x0000000000000000     r9 = 0x00000000000b4550
+     r10 = 0x0000000002f9ef60    r11 = 0x0000000000f1ae80
+     r12 = 0x0000000000000000    r13 = 0x0000000012bbc4c0
+     r14 = 0x0000000002f7a320    r15 = 0x0000000002bde7f8
+     rip = 0x00007ff8078a11c4
+    Found by: given as instruction pointer in context
+ 1  System.Windows.Forms.ni.dll + 0x337a38
+     rsp = 0x0000000000cfea60    rip = 0x00007fffdb0c7a39
+    Found by: stack scanning
+ 2  System.Windows.Forms.ni.dll + 0x2c8b39
+     rsp = 0x0000000000cfea70    rip = 0x00007fffdb058b3a
+    Found by: stack scanning
+ 3  clr.dll + 0x7ca9ff
+     rsp = 0x0000000000cfea90    rip = 0x00007fffde88aa00
+    Found by: stack scanning
+ 4  System.Windows.Forms.ni.dll + 0x93ea7
+     rsp = 0x0000000000cfeaa0    rip = 0x00007fffdae23ea8
+    Found by: stack scanning
+ 5  System.Windows.Forms.ni.dll + 0x93ea7
+     rsp = 0x0000000000cfeaa8    rip = 0x00007fffdae23ea8
+    Found by: stack scanning
+ 6  System.Windows.Forms.ni.dll + 0x337a38
+     rsp = 0x0000000000cfeab8    rip = 0x00007fffdb0c7a39
+    Found by: stack scanning
+ 7  System.Windows.Forms.ni.dll + 0x93ea7
+     rsp = 0x0000000000cfeac8    rip = 0x00007fffdae23ea8
+    Found by: stack scanning
+ 8  System.Windows.Forms.ni.dll + 0x2c8894
+     rsp = 0x0000000000cfeb10    rip = 0x00007fffdb058895
+    Found by: stack scanning
+ 9  clr.dll + 0x4fd8
+     rsp = 0x0000000000cfeb50    rip = 0x00007fffde0c4fd9
+    Found by: stack scanning
+10  System.Windows.Forms.ni.dll + 0x2c7fc6
+     rsp = 0x0000000000cfec00    rip = 0x00007fffdb057fc7
+    Found by: stack scanning
+11  System.Windows.Forms.ni.dll + 0x2c7dc1
+     rsp = 0x0000000000cfeca0    rip = 0x00007fffdb057dc2
+    Found by: stack scanning
+12  System.Windows.Forms.ni.dll + 0x29454e
+     rsp = 0x0000000000cfecc0    rip = 0x00007fffdb02454f
+    Found by: stack scanning
+13  clr.dll + 0x6922
+     rsp = 0x0000000000cfedd0    rip = 0x00007fffde0c6923
+    Found by: stack scanning
+14  clr.dll + 0x6837
+     rsp = 0x0000000000cfee10    rip = 0x00007fffde0c6838
+    Found by: stack scanning
+15  clr.dll + 0x864d
+     rsp = 0x0000000000cfee20    rip = 0x00007fffde0c864e
+    Found by: stack scanning
+16  clr.dll + 0x70e7
+     rsp = 0x0000000000cfee50    rip = 0x00007fffde0c70e8
+    Found by: stack scanning
+17  clr.dll + 0x19c850
+     rsp = 0x0000000000cfeea0    rip = 0x00007fffde25c851
+    Found by: stack scanning
+18  KeePass.exe + 0x2f59af
+     rsp = 0x0000000000cfeeb0    rip = 0x00000000009059b0
+    Found by: stack scanning
+19  clr.dll + 0x19b20f
+     rsp = 0x0000000000cfef50    rip = 0x00007fffde25b210
+    Found by: stack scanning
+20  clr.dll + 0x7cfaaf
+     rsp = 0x0000000000cfefc0    rip = 0x00007fffde88fab0
+    Found by: stack scanning
+21  mscorlib.ni.dll + 0x259bf
+     rsp = 0x0000000000cfeff8    rip = 0x00007fffdcae59c0
+    Found by: stack scanning
+22  KeePass.exe + 0x2f59b0
+     rsp = 0x0000000000cff070    rip = 0x00000000009059b1
+    Found by: stack scanning
+23  KeePass.exe + 0x2f59b2
+     rsp = 0x0000000000cff080    rip = 0x00000000009059b3
+    Found by: stack scanning
+24  KeePass.exe + 0x2f59b0
+     rsp = 0x0000000000cff090    rip = 0x00000000009059b1
+    Found by: stack scanning
+25  KeePass.exe + 0x2f59af
+     rsp = 0x0000000000cff0a0    rip = 0x00000000009059b0
+    Found by: stack scanning
+26  clr.dll + 0x108e4e
+     rsp = 0x0000000000cff0f0    rip = 0x00007fffde1c8e4f
+    Found by: stack scanning
+27  clr.dll + 0x19bab6
+     rsp = 0x0000000000cff130    rip = 0x00007fffde25bab7
+    Found by: stack scanning
+28  KeePass.exe + 0x2a61f1
+     rsp = 0x0000000000cff168    rip = 0x00000000008b61f2
+    Found by: stack scanning
+29  clr.dll + 0xc06af
+     rsp = 0x0000000000cff1e0    rip = 0x00007fffde1806b0
+    Found by: stack scanning
+30  clr.dll + 0xb0e0c
+     rsp = 0x0000000000cff1f0    rip = 0x00007fffde170e0d
+    Found by: stack scanning
+31  clr.dll + 0xa221ef
+     rsp = 0x0000000000cff1f8    rip = 0x00007fffdeae21f0
+    Found by: stack scanning
+32  clr.dll + 0x764d7
+     rsp = 0x0000000000cff220    rip = 0x00007fffde1364d8
+    Found by: stack scanning
+33  clr.dll + 0x5076
+     rsp = 0x0000000000cff250    rip = 0x00007fffde0c5077
+    Found by: stack scanning
+34  ntdll.dll + 0x195f0
+     rsp = 0x0000000000cff270    rip = 0x00007ff80a1695f1
+    Found by: stack scanning
+35  clr.dll + 0x704ec
+     rsp = 0x0000000000cff280    rip = 0x00007fffde1304ed
+    Found by: stack scanning
+36  KERNELBASE.dll + 0x226ed
+     rsp = 0x0000000000cff2a0    rip = 0x00007ff807c626ee
+    Found by: stack scanning
+37  clr.dll + 0x163add
+     rsp = 0x0000000000cff2d0    rip = 0x00007fffde223ade
+    Found by: stack scanning
+38  ntdll.dll + 0x15d20
+     rsp = 0x0000000000cff330    rip = 0x00007ff80a165d21
+    Found by: stack scanning
+39  clr.dll + 0x5828
+     rsp = 0x0000000000cff370    rip = 0x00007fffde0c5829
+    Found by: stack scanning
+40  clr.dll + 0x1649ca
+     rsp = 0x0000000000cff3b0    rip = 0x00007fffde2249cb
+    Found by: stack scanning
+41  clr.dll + 0xb0c3d
+     rsp = 0x0000000000cff3c0    rip = 0x00007fffde170c3e
+    Found by: stack scanning
+42  clr.dll + 0x19c73e
+     rsp = 0x0000000000cff3e0    rip = 0x00007fffde25c73f
+    Found by: stack scanning
+43  clr.dll + 0x19b96a
+     rsp = 0x0000000000cff420    rip = 0x00007fffde25b96b
+    Found by: stack scanning
+44  clr.dll + 0x61cf
+     rsp = 0x0000000000cff450    rip = 0x00007fffde0c61d0
+    Found by: stack scanning
+45  KeePass.exe + 0x1f0d9f
+     rsp = 0x0000000000cff538    rip = 0x0000000000800da0
+    Found by: stack scanning
+46  clr.dll + 0x7d1007
+     rsp = 0x0000000000cff550    rip = 0x00007fffde891008
+    Found by: stack scanning
+47  clr.dll + 0x7cffcf
+     rsp = 0x0000000000cff590    rip = 0x00007fffde88ffd0
+    Found by: stack scanning
+48  clr.dll + 0xaec8
+     rsp = 0x0000000000cff660    rip = 0x00007fffde0caec9
+    Found by: stack scanning
+49  clr.dll + 0x108d63
+     rsp = 0x0000000000cff690    rip = 0x00007fffde1c8d64
+    Found by: stack scanning
+50  clr.dll + 0x109798
+     rsp = 0x0000000000cff6a0    rip = 0x00007fffde1c9799
+    Found by: stack scanning
+51  clr.dll + 0x109dd5
+     rsp = 0x0000000000cff6d0    rip = 0x00007fffde1c9dd6
+    Found by: stack scanning
+52  clr.dll + 0x19f08f
+     rsp = 0x0000000000cff6f0    rip = 0x00007fffde25f090
+    Found by: stack scanning
+53  clr.dll + 0x168a34
+     rsp = 0x0000000000cff700    rip = 0x00007fffde228a35
+    Found by: stack scanning
+54  clr.dll + 0x18d128
+     rsp = 0x0000000000cff720    rip = 0x00007fffde24d129
+    Found by: stack scanning
+55  clr.dll + 0x19f08f
+     rsp = 0x0000000000cff740    rip = 0x00007fffde25f090
+    Found by: stack scanning
+56  clr.dll + 0x1935b1
+     rsp = 0x0000000000cff750    rip = 0x00007fffde2535b2
+    Found by: stack scanning
+57  clr.dll + 0x19f08f
+     rsp = 0x0000000000cff768    rip = 0x00007fffde25f090
+    Found by: stack scanning
+58  clr.dll + 0x81089f
+     rsp = 0x0000000000cff778    rip = 0x00007fffde8d08a0
+    Found by: stack scanning
+59  ntdll.dll + 0x195f0
+     rsp = 0x0000000000cff7c0    rip = 0x00007ff80a1695f1
+    Found by: stack scanning
+60  mscorlib.ni.dll + 0x15fffff
+     rsp = 0x0000000000cff840    rip = 0x00007fffde0c0000
+    Found by: stack scanning
+61  mscorlib.ni.dll + 0x15fffff
+     rsp = 0x0000000000cff8b8    rip = 0x00007fffde0c0000
+    Found by: stack scanning
+62  clr.dll + 0xa2176b
+     rsp = 0x0000000000cff8d8    rip = 0x00007fffdeae176c
+    Found by: stack scanning
+63  clr.dll + 0xa12057
+     rsp = 0x0000000000cff900    rip = 0x00007fffdead2058
+    Found by: stack scanning
+64  clr.dll + 0x81088f
+     rsp = 0x0000000000cff930    rip = 0x00007fffde8d0890
+    Found by: stack scanning
+65  clr.dll + 0x7e773f
+     rsp = 0x0000000000cff938    rip = 0x00007fffde8a7740
+    Found by: stack scanning
+66  clr.dll + 0x81089f
+     rsp = 0x0000000000cff940    rip = 0x00007fffde8d08a0
+    Found by: stack scanning
+67  clr.dll + 0x7e773f
+     rsp = 0x0000000000cff948    rip = 0x00007fffde8a7740
+    Found by: stack scanning
+68  mscorlib.ni.dll + 0x15fffff
+     rsp = 0x0000000000cff950    rip = 0x00007fffde0c0000
+    Found by: stack scanning
+69  clr.dll + 0x11f
+     rsp = 0x0000000000cff960    rip = 0x00007fffde0c0120
+    Found by: stack scanning
+70  clr.dll + 0x192d64
+     rsp = 0x0000000000cff9c0    rip = 0x00007fffde252d65
+    Found by: stack scanning
+71  clr.dll + 0xcb00
+     rsp = 0x0000000000cff9e0    rip = 0x00007fffde0ccb01
+    Found by: stack scanning
+72  clr.dll + 0x19b2b3
+     rsp = 0x0000000000cffa20    rip = 0x00007fffde25b2b4
+    Found by: stack scanning
+73  clr.dll + 0x19c1df
+     rsp = 0x0000000000cffa88    rip = 0x00007fffde25c1e0
+    Found by: stack scanning
+74  clr.dll + 0x19b00c
+     rsp = 0x0000000000cffa90    rip = 0x00007fffde25b00d
+    Found by: stack scanning
+75  clr.dll + 0x19c1df
+     rsp = 0x0000000000cffaa0    rip = 0x00007fffde25c1e0
+    Found by: stack scanning
+76  mscoreei.dll + 0x7140f
+     rsp = 0x0000000000cffae0    rip = 0x00007ffff05c1410
+    Found by: stack scanning
+77  ntdll.dll + 0x4a87f
+     rsp = 0x0000000000cffaf0    rip = 0x00007ff80a19a880
+    Found by: stack scanning
+78  clr.dll + 0x19c1f3
+     rsp = 0x0000000000cffb20    rip = 0x00007fffde25c1f4
+    Found by: stack scanning
+79  clr.dll + 0x19c1df
+     rsp = 0x0000000000cffb30    rip = 0x00007fffde25c1e0
+    Found by: stack scanning
+80  mscoreei.dll + 0x8c00
+     rsp = 0x0000000000cffb60    rip = 0x00007ffff0558c01
+    Found by: stack scanning
+81  mscoree.dll + 0x155f
+     rsp = 0x0000000000cffb90    rip = 0x00007ffff0601560
+    Found by: stack scanning
+82  mscoree.dll + 0xacd1
+     rsp = 0x0000000000cffba0    rip = 0x00007ffff060acd2
+    Found by: stack scanning
+83  mscoree.dll + 0xac41
+     rsp = 0x0000000000cffbc0    rip = 0x00007ffff060ac42
+    Found by: stack scanning
+84  clr.dll + 0x19c1df
+     rsp = 0x0000000000cffbd0    rip = 0x00007fffde25c1e0
+    Found by: stack scanning
+85  kernel32.dll + 0x16fd3
+     rsp = 0x0000000000cffbf0    rip = 0x00007ff809ad6fd4
+    Found by: stack scanning
+86  ntdll.dll + 0x4cec0
+     rsp = 0x0000000000cffc20    rip = 0x00007ff80a19cec1
+    Found by: stack scanning
+Thread 1 
+ 0  ntdll.dll + 0x9b8e4
+     rax = 0x000000000000005b    rdx = 0x0000000002b5f680
+     rcx = 0x0000000000000003    rbx = 0x0000000000000003
+     rsi = 0x0000000000000000    rdi = 0x0000000000000003
+     rbp = 0x0000000002b5f679    rsp = 0x0000000002b5f328
+      r8 = 0x0000000000000000     r9 = 0x0000000000000000
+     r10 = 0x0000000000000000    r11 = 0x0000000000000000
+     r12 = 0x00000000ffffffff    r13 = 0x0000000002b5f680
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff80a1eb8e4
+    Found by: given as instruction pointer in context
+ 1  KERNELBASE.dll + 0x4890f
+     rsp = 0x0000000002b5f330    rip = 0x00007ff807c88910
+    Found by: stack scanning
+ 2  KeePass.exe + 0x120064
+     rsp = 0x0000000002b5f350    rip = 0x0000000000730065
+    Found by: stack scanning
+ 3  clr.dll + 0x5d16
+     rsp = 0x0000000002b5f360    rip = 0x00007fffde0c5d17
+    Found by: stack scanning
+ 4  clr.dll + 0x7e57b7
+     rsp = 0x0000000002b5f380    rip = 0x00007fffde8a57b8
+    Found by: stack scanning
+ 5  clr.dll + 0x7e57a7
+     rsp = 0x0000000002b5f3e0    rip = 0x00007fffde8a57a8
+    Found by: stack scanning
+ 6  clr.dll + 0x5c84
+     rsp = 0x0000000002b5f3f0    rip = 0x00007fffde0c5c85
+    Found by: stack scanning
+ 7  clr.dll + 0x7e57b7
+     rsp = 0x0000000002b5f3f8    rip = 0x00007fffde8a57b8
+    Found by: stack scanning
+Thread 2 
+ 0  ntdll.dll + 0x9b8e4
+     rax = 0x000000000000005b    rdx = 0x00007fffdead65d0
+     rcx = 0x0000000000000003    rbx = 0x0000000000000003
+     rsi = 0x0000000000000000    rdi = 0x0000000000000003
+     rbp = 0x0000000000000001    rsp = 0x000000001b13f4d8
+      r8 = 0x0000000000ec6601     r9 = 0x0000000000000001
+     r10 = 0x000000000000001b    r11 = 0x000000001b13f5d0
+     r12 = 0x00000000ffffffff    r13 = 0x00007fffdead65d0
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff80a1eb8e4
+    Found by: given as instruction pointer in context
+ 1  KERNELBASE.dll + 0x4890f
+     rsp = 0x000000001b13f4e0    rip = 0x00007ff807c88910
+    Found by: stack scanning
+ 2  ntdll.dll + 0x195f0
+     rsp = 0x000000001b13f540    rip = 0x00007ff80a1695f1
+    Found by: stack scanning
+ 3  ntdll.dll + 0x15d20
+     rsp = 0x000000001b13f5a0    rip = 0x00007ff80a165d21
+    Found by: stack scanning
+ 4  clr.dll + 0x1e6031
+     rsp = 0x000000001b13f5b0    rip = 0x00007fffde2a6032
+    Found by: stack scanning
+ 5  clr.dll + 0x5152
+     rsp = 0x000000001b13f5c0    rip = 0x00007fffde0c5153
+    Found by: stack scanning
+ 6  KERNELBASE.dll + 0x27f34
+     rsp = 0x000000001b13f5d0    rip = 0x00007ff807c67f35
+    Found by: stack scanning
+ 7  KERNELBASE.dll + 0x226ed
+     rsp = 0x000000001b13f600    rip = 0x00007ff807c626ee
+    Found by: stack scanning
+ 8  clr.dll + 0x1e6237
+     rsp = 0x000000001b13f6a0    rip = 0x00007fffde2a6238
+    Found by: stack scanning
+ 9  clr.dll + 0x1e4032
+     rsp = 0x000000001b13f6b0    rip = 0x00007fffde2a4033
+    Found by: stack scanning
+10  clr.dll + 0x1e61ed
+     rsp = 0x000000001b13f6e0    rip = 0x00007fffde2a61ee
+    Found by: stack scanning
+11  clr.dll + 0xf730f
+     rsp = 0x000000001b13f6e8    rip = 0x00007fffde1b7310
+    Found by: stack scanning
+12  KERNELBASE.dll + 0x226ed
+     rsp = 0x000000001b13f700    rip = 0x00007ff807c626ee
+    Found by: stack scanning
+13  clr.dll + 0x7f8e
+     rsp = 0x000000001b13f710    rip = 0x00007fffde0c7f8f
+    Found by: stack scanning
+14  clr.dll + 0x1e6157
+     rsp = 0x000000001b13f740    rip = 0x00007fffde2a6158
+    Found by: stack scanning
+15  clr.dll + 0xf4bdc
+     rsp = 0x000000001b13f780    rip = 0x00007fffde1b4bdd
+    Found by: stack scanning
+16  clr.dll + 0xf750b
+     rsp = 0x000000001b13f7a0    rip = 0x00007fffde1b750c
+    Found by: stack scanning
+17  clr.dll + 0xd9dc2
+     rsp = 0x000000001b13f7d0    rip = 0x00007fffde199dc3
+    Found by: stack scanning
+18  clr.dll + 0xf7362
+     rsp = 0x000000001b13f810    rip = 0x00007fffde1b7363
+    Found by: stack scanning
+19  clr.dll + 0xf730f
+     rsp = 0x000000001b13f818    rip = 0x00007fffde1b7310
+    Found by: stack scanning
+20  clr.dll + 0x5152
+     rsp = 0x000000001b13f840    rip = 0x00007fffde0c5153
+    Found by: stack scanning
+21  clr.dll + 0x7cdf
+     rsp = 0x000000001b13f860    rip = 0x00007fffde0c7ce0
+    Found by: stack scanning
+22  clr.dll + 0xf730f
+     rsp = 0x000000001b13f870    rip = 0x00007fffde1b7310
+    Found by: stack scanning
+23  clr.dll + 0x7f8e
+     rsp = 0x000000001b13f890    rip = 0x00007fffde0c7f8f
+    Found by: stack scanning
+24  clr.dll + 0x187b6f
+     rsp = 0x000000001b13f898    rip = 0x00007fffde247b70
+    Found by: stack scanning
+25  clr.dll + 0x7c52
+     rsp = 0x000000001b13f8a0    rip = 0x00007fffde0c7c53
+    Found by: stack scanning
+26  clr.dll + 0x5ae0
+     rsp = 0x000000001b13f8c0    rip = 0x00007fffde0c5ae1
+    Found by: stack scanning
+27  clr.dll + 0x5d16
+     rsp = 0x000000001b13f8f0    rip = 0x00007fffde0c5d17
+    Found by: stack scanning
+28  clr.dll + 0x80ec9f
+     rsp = 0x000000001b13f900    rip = 0x00007fffde8ceca0
+    Found by: stack scanning
+29  clr.dll + 0x50ff
+     rsp = 0x000000001b13f950    rip = 0x00007fffde0c5100
+    Found by: stack scanning
+30  clr.dll + 0x7149
+     rsp = 0x000000001b13f970    rip = 0x00007fffde0c714a
+    Found by: stack scanning
+31  clr.dll + 0x191a2b
+     rsp = 0x000000001b13f980    rip = 0x00007fffde251a2c
+    Found by: stack scanning
+32  clr.dll + 0x80ec9f
+     rsp = 0x000000001b13f988    rip = 0x00007fffde8ceca0
+    Found by: stack scanning
+33  clr.dll + 0x7b91
+     rsp = 0x000000001b13f9a0    rip = 0x00007fffde0c7b92
+    Found by: stack scanning
+34  clr.dll + 0x7cfa0f
+     rsp = 0x000000001b13f9f8    rip = 0x00007fffde88fa10
+    Found by: stack scanning
+35  clr.dll + 0x187c85
+     rsp = 0x000000001b13fa10    rip = 0x00007fffde247c86
+    Found by: stack scanning
+36  clr.dll + 0xf730f
+     rsp = 0x000000001b13fa58    rip = 0x00007fffde1b7310
+    Found by: stack scanning
+37  clr.dll + 0x5882
+     rsp = 0x000000001b13fa70    rip = 0x00007fffde0c5883
+    Found by: stack scanning
+38  clr.dll + 0x57df
+     rsp = 0x000000001b13fa78    rip = 0x00007fffde0c57e0
+    Found by: stack scanning
+39  clr.dll + 0xb5c4
+     rsp = 0x000000001b13fab0    rip = 0x00007fffde0cb5c5
+    Found by: stack scanning
+40  clr.dll + 0x187b6f
+     rsp = 0x000000001b13fad0    rip = 0x00007fffde247b70
+    Found by: stack scanning
+41  clr.dll + 0xb59f
+     rsp = 0x000000001b13fb30    rip = 0x00007fffde0cb5a0
+    Found by: stack scanning
+42  kernel32.dll + 0x16fd3
+     rsp = 0x000000001b13fb70    rip = 0x00007ff809ad6fd4
+    Found by: stack scanning
+43  ntdll.dll + 0x4cec0
+     rsp = 0x000000001b13fba0    rip = 0x00007ff80a19cec1
+    Found by: stack scanning
+Thread 3 
+ 0  win32u.dll + 0xa104
+     rax = 0x0000000000001486    rdx = 0x000000001b7dfa78
+     rcx = 0x0000000000000001    rbx = 0x0000000000000000
+     rsi = 0x000000001b7e1ef0    rdi = 0x0000000000000001
+     rbp = 0x0000000000000000    rsp = 0x000000001b7df9b8
+      r8 = 0x0000000000000000     r9 = 0x0000000000000000
+     r10 = 0x0000000000000002    r11 = 0x00000000014c0000
+     r12 = 0x0000000000000000    r13 = 0x0000000000000000
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff8078aa104
+    Found by: given as instruction pointer in context
+ 1  user32.dll + 0x2026d
+     rsp = 0x000000001b7df9c0    rip = 0x00007ff808f3026e
+    Found by: stack scanning
+ 2  GdiPlus.dll + 0x8def
+     rsp = 0x000000001b7dfa00    rip = 0x00007fffe5108df0
+    Found by: stack scanning
+ 3  GdiPlus.dll + 0x8d4e
+     rsp = 0x000000001b7dfa70    rip = 0x00007fffe5108d4f
+    Found by: stack scanning
+ 4  kernel32.dll + 0x16fd3
+     rsp = 0x000000001b7dfaa0    rip = 0x00007ff809ad6fd4
+    Found by: stack scanning
+ 5  ntdll.dll + 0x4cec0
+     rsp = 0x000000001b7dfad0    rip = 0x00007ff80a19cec1
+    Found by: stack scanning
+Thread 4 
+ 0  ntdll.dll + 0x9b8e4
+     rax = 0x000000000000005b    rdx = 0x000000001e68faa0
+     rcx = 0x0000000000000002    rbx = 0x0000000000000002
+     rsi = 0x0000000000000001    rdi = 0x0000000000000002
+     rbp = 0x0000000000000424    rsp = 0x000000001e68f758
+      r8 = 0x000000001b55b470     r9 = 0x000000001b557dc0
+     r10 = 0x000000001b486ad0    r11 = 0x000000001e68faa0
+     r12 = 0x00000000ffffffff    r13 = 0x000000001e68faa0
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff80a1eb8e4
+    Found by: given as instruction pointer in context
+ 1  KERNELBASE.dll + 0x4890f
+     rsp = 0x000000001e68f760    rip = 0x00007ff807c88910
+    Found by: stack scanning
+ 2  KERNELBASE.dll + 0x489fb
+     rsp = 0x000000001e68f800    rip = 0x00007ff807c889fc
+    Found by: stack scanning
+ 3  ntdll.dll + 0x74542
+     rsp = 0x000000001e68f8a0    rip = 0x00007ff80a1c4543
+    Found by: stack scanning
+ 4  ntdll.dll + 0x744f7
+     rsp = 0x000000001e68f8d0    rip = 0x00007ff80a1c44f8
+    Found by: stack scanning
+ 5  ntdll.dll + 0x4a87f
+     rsp = 0x000000001e68f940    rip = 0x00007ff80a19a880
+    Found by: stack scanning
+ 6  ntdll.dll + 0x1a43b
+     rsp = 0x000000001e68f970    rip = 0x00007ff80a16a43c
+    Found by: stack scanning
+ 7  ntdll.dll + 0x4a87f
+     rsp = 0x000000001e68f990    rip = 0x00007ff80a19a880
+    Found by: stack scanning
+ 8  combase.dll + 0x221ff
+     rsp = 0x000000001e68f9a8    rip = 0x00007ff808942200
+    Found by: stack scanning
+ 9  KERNELBASE.dll + 0x6287f
+     rsp = 0x000000001e68f9e0    rip = 0x00007ff807ca2880
+    Found by: stack scanning
+10  combase.dll + 0x226a9
+     rsp = 0x000000001e68fa00    rip = 0x00007ff8089426aa
+    Found by: stack scanning
+11  combase.dll + 0x22685
+     rsp = 0x000000001e68fa50    rip = 0x00007ff808942686
+    Found by: stack scanning
+12  ntdll.dll + 0x4163e
+     rsp = 0x000000001e68fac0    rip = 0x00007ff80a19163f
+    Found by: stack scanning
+13  ntdll.dll + 0x1786a
+     rsp = 0x000000001e68fad0    rip = 0x00007ff80a16786b
+    Found by: stack scanning
+14  ntdll.dll + 0x4a87f
+     rsp = 0x000000001e68fc00    rip = 0x00007ff80a19a880
+    Found by: stack scanning
+15  KERNELBASE.dll + 0x30f09
+     rsp = 0x000000001e68fc50    rip = 0x00007ff807c70f0a
+    Found by: stack scanning
+16  KERNELBASE.dll + 0x27f34
+     rsp = 0x000000001e68fc60    rip = 0x00007ff807c67f35
+    Found by: stack scanning
+17  combase.dll + 0x496e2
+     rsp = 0x000000001e68fcb0    rip = 0x00007ff8089696e3
+    Found by: stack scanning
+18  combase.dll + 0x223dc
+     rsp = 0x000000001e68fce0    rip = 0x00007ff8089423dd
+    Found by: stack scanning
+19  combase.dll + 0x22298
+     rsp = 0x000000001e68fd40    rip = 0x00007ff808942299
+    Found by: stack scanning
+20  kernel32.dll + 0x16fd3
+     rsp = 0x000000001e68fd70    rip = 0x00007ff809ad6fd4
+    Found by: stack scanning
+21  ntdll.dll + 0x4cec0
+     rsp = 0x000000001e68fda0    rip = 0x00007ff80a19cec1
+    Found by: stack scanning
+Thread 5 
+ 0  ntdll.dll + 0x9e7e4
+     rax = 0x00000000000001d3    rdx = 0x000000001b55ffd0
+     rcx = 0x0000000000000264    rbx = 0x000000001b560350
+     rsi = 0x0000000000f69fb0    rdi = 0x000000001b560350
+     rbp = 0x0000000000000000    rsp = 0x000000001e78f898
+      r8 = 0x0000000000000000     r9 = 0x0000000000000029
+     r10 = 0x0000000000000000    r11 = 0x3feb0fe8000007dc
+     r12 = 0x0000000000000000    r13 = 0x0000000000000000
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff80a1ee7e4
+    Found by: given as instruction pointer in context
+ 1  ntdll.dll + 0x123d6
+     rsp = 0x000000001e78f8a0    rip = 0x00007ff80a1623d7
+    Found by: stack scanning
+Thread 6 
+ 0  ntdll.dll + 0x9e7e4
+     rax = 0x00000000000001d3    rdx = 0x000000001b563020
+     rcx = 0x0000000000000264    rbx = 0x000000001b5633a0
+     rsi = 0x0000000000f69fb0    rdi = 0x000000001b5633a0
+     rbp = 0x0000000000000000    rsp = 0x000000001e88fae8
+      r8 = 0x000000001e9ef730     r9 = 0x0000000000ec0320
+     r10 = 0x0000000000000003    r11 = 0x0000000000000201
+     r12 = 0x0000000000000000    r13 = 0x0000000000000000
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff80a1ee7e4
+    Found by: given as instruction pointer in context
+ 1  ntdll.dll + 0x123d6
+     rsp = 0x000000001e88faf0    rip = 0x00007ff80a1623d7
+    Found by: stack scanning
+Thread 7 
+ 0  ntdll.dll + 0x9e7e4
+     rax = 0x00000000000001d3    rdx = 0x000000001e9a6ca0
+     rcx = 0x0000000000000014    rbx = 0x000000001e9a7020
+     rsi = 0x0000000000ec0b50    rdi = 0x000000001e9a7020
+     rbp = 0x0000000000000000    rsp = 0x000000001f0df5f8
+      r8 = 0x00000000000000ff     r9 = 0x0000c00000000000
+     r10 = 0x0000000000000000    r11 = 0x000000001f0df4a8
+     r12 = 0x0000000000000000    r13 = 0x0000000000000000
+     r14 = 0x0000000000000000    r15 = 0x0000000000000000
+     rip = 0x00007ff80a1ee7e4
+    Found by: given as instruction pointer in context
+ 1  ntdll.dll + 0x123d6
+     rsp = 0x000000001f0df600    rip = 0x00007ff80a1623d7
+    Found by: stack scanning
+
+Loaded modules:
+0x00610000 - 0x00929fff  KeePass.exe  2.53.1.0  (main)
+0x1b970000 - 0x1bbf5fff  System.XML.dll  4.8.4084.0
+0x1fc90000 - 0x1fcdffff  System.Security.dll  4.8.4261.0
+0x207e0000 - 0x20849fff  KeePass.XmlSerializers.dll  2.53.1.20815
+0x7ff801100000 - 0x7ff8011f4fff  propsys.dll  7.0.19041.1
+0x7ff802a10000 - 0x7ff802a23fff  wtsapi32.dll  10.0.19041.1
+0x7ff802ce0000 - 0x7ff802e35fff  WinTypes.dll  10.0.19041.264
+0x7ff8031c0000 - 0x7ff803422fff  d3d11.dll  10.0.19041.1
+0x7ff8039b0000 - 0x7ff803a5bfff  TextShaping.dll  ???
+0x7ff803a60000 - 0x7ff803c44fff  dcomp.dll  10.0.19041.264
+0x7ff804c20000 - 0x7ff804f79fff  CoreUIComponents.dll  10.0.19041.1
+0x7ff804fd0000 - 0x7ff8050c1fff  CoreMessaging.dll  10.0.19041.264
+0x7ff805390000 - 0x7ff80542efff  uxtheme.dll  10.0.19041.1
+0x7ff805560000 - 0x7ff805638fff  wer.dll  10.0.19041.264
+0x7ff805740000 - 0x7ff80576dfff  dwmapi.dll  10.0.19041.1
+0x7ff805850000 - 0x7ff805862fff  kernel.appcore.dll  10.0.19041.1
+0x7ff805a50000 - 0x7ff8061d9fff  windows.storage.dll  10.0.19041.264
+0x7ff806340000 - 0x7ff806432fff  dxgi.dll  10.0.19041.1
+0x7ff806650000 - 0x7ff806682fff  ntmarta.dll  10.0.19041.1
+0x7ff806960000 - 0x7ff806993fff  rsaenh.dll  10.0.19041.1
+0x7ff8071a0000 - 0x7ff8071abfff  CRYPTBASE.dll  10.0.19041.1
+0x7ff8071b0000 - 0x7ff8071c7fff  cryptsp.dll  10.0.19041.1
+0x7ff807250000 - 0x7ff80727afff  wldp.dll  10.0.19041.1
+0x7ff8075e0000 - 0x7ff807681fff  sxs.dll  10.0.19041.1
+0x7ff807690000 - 0x7ff8076e9fff  winsta.dll  10.0.19041.1
+0x7ff807710000 - 0x7ff807740fff  sspicli.dll  10.0.19041.1
+0x7ff8077e0000 - 0x7ff8077fefff  profapi.dll  10.0.19041.1
+0x7ff8078a0000 - 0x7ff8078c1fff  win32u.dll  10.0.19041.264
+0x7ff8078d0000 - 0x7ff8078f6fff  bcrypt.dll  10.0.19041.1
+0x7ff807900000 - 0x7ff8079fffff  ucrtbase.dll  10.0.19041.1
+0x7ff807a60000 - 0x7ff807b68fff  gdi32full.dll  10.0.19041.264
+0x7ff807bc0000 - 0x7ff807c3efff  bcryptPrimitives.dll  10.0.19041.264
+0x7ff807c40000 - 0x7ff807f06fff  KERNELBASE.dll  10.0.19041.207
+0x7ff807f10000 - 0x7ff807facfff  msvcp_win.dll  10.0.19041.1
+0x7ff8081c0000 - 0x7ff808267fff  clbcatq.dll  2001.12.10941.16384
+0x7ff808270000 - 0x7ff808299fff  gdi32.dll  10.0.19041.1
+0x7ff808450000 - 0x7ff8084a4fff  shlwapi.dll  10.0.19041.1
+0x7ff808920000 - 0x7ff808c73fff  combase.dll  10.0.19041.84
+0x7ff808ce0000 - 0x7ff808e02fff  rpcrt4.dll  10.0.19041.1
+0x7ff808e10000 - 0x7ff808edcfff  oleaut32.dll  10.0.19041.264
+0x7ff808ee0000 - 0x7ff808f0ffff  imm32.dll  10.0.19041.1
+0x7ff808f10000 - 0x7ff8090affff  user32.dll  10.0.19041.264
+0x7ff8091f0000 - 0x7ff809299fff  advapi32.dll  10.0.19041.1
+0x7ff8092b0000 - 0x7ff8099e0fff  shell32.dll  10.0.19041.153
+0x7ff8099f0000 - 0x7ff8099f7fff  psapi.dll  10.0.19041.1
+0x7ff809a20000 - 0x7ff809abdfff  msvcrt.dll  7.0.19041.1
+0x7ff809ac0000 - 0x7ff809b7cfff  kernel32.dll  10.0.19041.207
+0x7ff809b80000 - 0x7ff809beafff  ws2_32.dll  10.0.19041.1
+0x7ff809c70000 - 0x7ff809d1dfff  SHCore.dll  10.0.19041.264
+0x7ff809d20000 - 0x7ff809e48fff  ole32.dll  10.0.19041.153
+0x7ff809e50000 - 0x7ff809eeafff  sechost.dll  10.0.19041.1
+0x7ff809f90000 - 0x7ff80a0a4fff  msctf.dll  10.0.19041.117
+0x7ff80a150000 - 0x7ff80a343fff  ntdll.dll  10.0.19041.207
+0x7fffda1d0000 - 0x7fffda302fff  System.Configuration.ni.dll  4.8.4190.0
+0x7fffda310000 - 0x7fffdad84fff  System.Core.ni.dll  4.8.4390.0
+0x7fffdad90000 - 0x7fffdbe3bfff  System.Windows.Forms.ni.dll  4.8.4400.0
+0x7fffdbe40000 - 0x7fffdcab0fff  System.ni.dll  4.8.4360.0
+0x7fffdcac0000 - 0x7fffde0bffff  mscorlib.ni.dll  4.8.4420.0
+0x7fffde0c0000 - 0x7fffdeb80fff  clr.dll  4.8.4420.0
+0x7fffdee00000 - 0x7fffdeea8fff  tiptsf.dll  10.0.19041.1
+0x7fffdeeb0000 - 0x7fffdf0a4fff  System.Drawing.ni.dll  4.8.4390.0
+0x7fffdf0b0000 - 0x7fffdf1fefff  clrjit.dll  4.8.4420.0
+0x7fffe5100000 - 0x7fffe52a4fff  GdiPlus.dll  10.0.19041.264
+0x7fffea6c0000 - 0x7fffea6e4fff  globinputhost.dll  10.0.19041.1
+0x7fffea6f0000 - 0x7fffeaa36fff  msftedit.dll  10.0.19041.153
+0x7fffeba10000 - 0x7fffebd01fff  UIAutomationCore.dll  7.2.19041.153
+0x7fffecc50000 - 0x7fffeccddfff  winspool.drv  10.0.19041.1
+0x7fffee9e0000 - 0x7fffeeaa4fff  KeePassLibC64.dll  1.41.0.0
+0x7fffef2e0000 - 0x7fffef4fefff  explorerframe.dll  10.0.19041.1
+0x7fffef5b0000 - 0x7fffef5edfff  dataexchange.dll  10.0.19041.264
+0x7fffef810000 - 0x7fffef875fff  oleacc.dll  7.2.19041.1
+0x7fffef8e0000 - 0x7fffef903fff  clrcompression.dll  4.8.4084.0
+0x7ffff0230000 - 0x7ffff02ecfff  ucrtbase_clr0400.dll  14.10.25028.0
+0x7ffff02f0000 - 0x7ffff0305fff  VCRUNTIME140_CLR0400.dll  14.10.25028.0
+0x7ffff0340000 - 0x7ffff0351fff  Accessibility.ni.dll  4.8.4084.0
+0x7ffff0550000 - 0x7ffff05f9fff  mscoreei.dll  4.8.4180.0
+0x7ffff0600000 - 0x7ffff0664fff  mscoree.dll  10.0.19041.1
+0x7ffff1c40000 - 0x7ffff1ebdfff  DWrite.dll  10.0.19041.264
+0x7ffff3990000 - 0x7ffff3b36fff  Windows.Globalization.dll  10.0.19041.264
+0x7ffff3b40000 - 0x7ffff3b6cfff  BCP47mrm.dll  10.0.19041.1
+0x7ffff3bc0000 - 0x7ffff3c19fff  Bcp47Langs.dll  10.0.19041.84
+0x7ffff3d10000 - 0x7ffff3e5bfff  Windows.UI.dll  10.0.19041.264
+0x7ffff4080000 - 0x7ffff417bfff  textinputframework.dll  10.0.19041.1
+0x7ffff4d70000 - 0x7ffff4ec1fff  InputHost.dll  10.0.19041.264
+0x7ffffcf60000 - 0x7ffffd113fff  WindowsCodecs.dll  10.0.19041.207
+0x7ffffd400000 - 0x7ffffd607fff  twinapi.appcore.dll  10.0.19041.264
+0x7ffffda30000 - 0x7ffffdad0fff  WindowManagementAPI.dll  ???
+0x7ffffe710000 - 0x7ffffe71bfff  secur32.dll  10.0.19041.1
+0x7ffffe720000 - 0x7ffffe746fff  winmm.dll  10.0.19041.1
+0x7ffffefe0000 - 0x7ffffefe9fff  version.dll  10.0.19041.1
+0x7fffff160000 - 0x7fffff3f9fff  comctl32.dll  6.10.19041.1
+
+Unloaded modules:
+
+Unimplemented streams encountered:
+Stream 0x00000000 UnusedStream (Official) @ 0x00000000
+Stream 0x0000000d FunctionTable (Official) @ 0x00003064
+Stream 0x00000015 SystemMemoryInfoStream (Official) @ 0x0000ccb4
+Stream 0x0000000c HandleDataStream (Official) @ 0x000168e4
+Stream 0x00000016 ProcessVmCountersStream (Official) @ 0x0000cea0
+Stream 0x00000011 ThreadInfoListStream (Official) @ 0x000007f0

@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Mon Sep  4 15:49:52 2023 as: nmap -sC -sV -p22,80 -oA nmap/cozyhosting 10.129.119.166
+Host: 10.129.119.166 ()	Status: Up
+Host: 10.129.119.166 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/
+# Nmap done at Mon Sep  4 15:50:01 2023 -- 1 IP address (1 host up) scanned in 8.85 seconds

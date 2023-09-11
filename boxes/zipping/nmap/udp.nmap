@@ -1,0 +1,7 @@
+# Nmap 7.94 scan initiated Thu Aug 24 16:06:57 2023 as: nmap -sU -oA nmap/udp 10.129.50.84
+Nmap scan report for 10.129.50.84
+Host is up (0.041s latency).
+All 1000 scanned ports on 10.129.50.84 are in ignored states.
+Not shown: 958 closed udp ports (port-unreach), 42 open|filtered udp ports (no-response)
+
+# Nmap done at Thu Aug 24 16:24:14 2023 -- 1 IP address (1 host up) scanned in 1036.78 seconds

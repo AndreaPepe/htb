@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Tue Sep  5 08:16:31 2023 as: nmap -sU -oA nmap/udp 10.10.11.213
+Host: 10.10.11.213 ()	Status: Up
+Host: 10.10.11.213 ()	Ports: 68/open|filtered/udp//dhcpc///	Ignored State: closed (999)
+# Nmap done at Tue Sep  5 08:33:24 2023 -- 1 IP address (1 host up) scanned in 1012.29 seconds

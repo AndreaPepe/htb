@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Mon Aug 14 16:12:11 2023 as: nmap -oA nmap/simple 10.129.212.236
+Host: 10.129.212.236 ()	Status: Up
+Host: 10.129.212.236 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (998)
+# Nmap done at Mon Aug 14 16:12:12 2023 -- 1 IP address (1 host up) scanned in 1.01 seconds

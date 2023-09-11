@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Wed Sep  6 13:56:40 2023 as: nmap -sC -sV -p22,80,25,139,445 -oA nmap/gofer 10.10.11.225 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -p22,80,25,139,445 -oA nmap/gofer 10.10.11.225" start="1694001400" startstr="Wed Sep  6 13:56:40 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="5" services="22,25,80,139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.11.225" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1694001400" endtime="1694001419"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.11.225" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.4p1 Debian 5+deb11u1" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.4p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 aa:25:82:6e:b8:04:b6:a9:a9:5e:1a:91:f0:94:51:dd (RSA)&#xa;  256 18:21:ba:a7:dc:e4:4f:60:d7:81:03:9a:5d:c2:e5:96 (ECDSA)&#xa;  256 a4:2d:0d:45:13:2a:9e:7f:86:7a:f6:f7:78:bc:42:d9 (ED25519)"><table>
+<elem key="bits">3072</elem>
+<elem key="fingerprint">aa25826eb804b6a9a95e1a91f09451dd</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDWZZaa5+lpCnLnH42pyiIScrRRvf/NoqBUraxWR23i67HWvgClOZ2tNUmW/Xo0VM6G4NcxKtVWKA7STRI98kVfm7AlzNOEFniGv1ojAbarbVK0UETqpleJ7MhcizblfdISP4MiDWzBiBOe8oDzDLHlPtLIdOngxG5khGUIZNAJayY96zQk5bzEZsrpax2tIbqd8HboG431Dbgv1QnR9HiqczuL8RxZyIIKYAFOwDSw8Xg/VAyOLjdgGTC9+gRTbKP++qWEYNgXv6m9bBRgjQBpoE5TZBEc1io6TETN1sDH7Diy5K4cJq6a39cfNFtZ/LIFbtW/ZE2nzadleVe0QhHNB9/vmrDq27DXs74oWGtgV/TnUOTLmQzDP5twlWzpmCIx55nTsDfwzzCLOjOCgr0mOrG6h+jRKyC3zQCrq7dXw8reafFqFA42xVgaYFO1rVfkyN9vTWXbLYJGuvF0CHX7TSZhkrUqCrkSHi670FB0vfXORU7BfF3QotuCBSMtkE0=</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="fingerprint">1821baa7dce44f60d781039a5dc2e596</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDgM/I3iBB8uss3VbigwVRLn3XyEzyib5V7L2eawFppGx57/p7ET/YBzMrW+SElgaK/2AlYU0QB4HxlkWIkOQMM=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="fingerprint">a42d0d45132a9e7f867af6f778bc42d9</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIK54Htnt4YCWx5SNZ+9Th2jmN7sX3rLUePwWS6MfwNDU</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="25"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.56" hostname="gofer.htb" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.56</cpe></service><script id="http-title" output="Did not follow redirect to http://gofer.htb/"><elem key="redirect_url">http://gofer.htb/</elem>
+</script><script id="http-server-header" output="Apache/2.4.56 (Debian)"><elem>Apache/2.4.56 (Debian)</elem>
+</script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="netbios-ssn" product="Samba smbd" version="4.6.2" method="probed" conf="10"><cpe>cpe:/a:samba:samba:4.6.2</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="netbios-ssn" product="Samba smbd" version="4.6.2" method="probed" conf="10"><cpe>cpe:/a:samba:samba:4.6.2</cpe></service></port>
+</ports>
+<hostscript><script id="clock-skew" output="18h39m08s"><elem key="median">67148</elem>
+<elem key="stddev">0</elem>
+<elem key="mean">67148</elem>
+<elem key="count">1</elem>
+</script><script id="smb2-security-mode" output="&#xa;  3:1:1: &#xa;    Message signing enabled but not required"><table key="3:1:1">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2023-09-07T06:36:03&#xa;  start_date: N/A"><elem key="date">2023-09-07T06:36:03</elem>
+<elem key="start_date">N/A</elem>
+</script><script id="nbstat" output="NetBIOS name: GOFER, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)"/></hostscript><times srtt="47530" rttvar="15806" to="110754"/>
+</host>
+<runstats><finished time="1694001419" timestr="Wed Sep  6 13:56:59 2023" summary="Nmap done at Wed Sep  6 13:56:59 2023; 1 IP address (1 host up) scanned in 19.22 seconds" elapsed="19.22" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

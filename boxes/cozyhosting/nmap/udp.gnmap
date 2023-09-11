@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Mon Sep  4 15:47:40 2023 as: nmap -sU -oA nmap/udp 10.129.119.166
+Host: 10.129.119.166 ()	Status: Up
+Host: 10.129.119.166 ()	Ports: 
+# Nmap done at Mon Sep  4 16:04:37 2023 -- 1 IP address (1 host up) scanned in 1017.36 seconds

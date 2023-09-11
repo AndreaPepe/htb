@@ -1,0 +1,1 @@
+# Nmap 7.94 scan initiated Fri Sep  8 09:24:28 2023 as: nmap -sU -sV -v -oA nmap/udp 10.10.11.212

@@ -1,0 +1,28 @@
+$ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-110000.txt:FUZZ -u http://jupiter.htb/ -H "host: FUZZ.jupiter.htb" -mc 200,204 -c -v
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.0.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://jupiter.htb/
+ :: Wordlist         : FUZZ: /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-110000.txt
+ :: Header           : Host: FUZZ.jupiter.htb
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200,204
+________________________________________________
+
+[Status: 200, Size: 34390, Words: 2150, Lines: 212, Duration: 74ms]
+| URL | http://jupiter.htb/
+    * FUZZ: kiosk
+
+:: Progress: [114532/114532] :: Job [1/1] :: 604 req/sec :: Duration: [0:03:25] :: Errors: 0 ::

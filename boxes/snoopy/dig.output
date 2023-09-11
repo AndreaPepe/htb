@@ -1,0 +1,28 @@
+
+; <<>> DiG 9.18.18 <<>> any snoopy.htb @10.10.11.212
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42019
+;; flags: qr aa rd; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 3
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: d067fb9f9a2f348a0100000064fad04e3326af8b0d7ad0a7 (good)
+;; QUESTION SECTION:
+;snoopy.htb.			IN	ANY
+
+;; ANSWER SECTION:
+snoopy.htb.		86400	IN	SOA	ns1.snoopy.htb. ns2.snoopy.htb. 2022032612 3600 1800 604800 86400
+snoopy.htb.		86400	IN	NS	ns1.snoopy.htb.
+snoopy.htb.		86400	IN	NS	ns2.snoopy.htb.
+
+;; ADDITIONAL SECTION:
+ns1.snoopy.htb.		86400	IN	A	10.0.50.10
+ns2.snoopy.htb.		86400	IN	A	10.0.51.10
+
+;; Query time: 46 msec
+;; SERVER: 10.10.11.212#53(10.10.11.212) (TCP)
+;; WHEN: Fri Sep 08 09:42:06 CEST 2023
+;; MSG SIZE  rcvd: 171
+
